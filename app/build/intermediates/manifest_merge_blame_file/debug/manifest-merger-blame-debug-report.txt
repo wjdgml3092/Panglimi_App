@@ -1,0 +1,195 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.project_pang"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:5:5-81
+11-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+15-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:9:5-76
+15-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:9:22-73
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:10:5-75
+16-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:10:22-72
+17    <uses-permission android:name="android.permission.READ_CONTACTS" />
+17-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:11:5-72
+17-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:11:22-69
+18    <uses-permission android:name="Android.permission.ACCESS_WIFI_STATE" />
+18-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:12:5-76
+18-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:12:22-73
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:8:5-79
+19-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:8:22-76
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Owner\.gradle\caches\transforms-2\files-2.1\4882c64b33418d4d6e2bb0cb7ae334e3\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Owner\.gradle\caches\transforms-2\files-2.1\4882c64b33418d4d6e2bb0cb7ae334e3\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Owner\.gradle\caches\transforms-2\files-2.1\4882c64b33418d4d6e2bb0cb7ae334e3\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+24
+25    <application
+25-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:15:5-67:19
+26        android:name="com.example.panglimi.GlobalApplication"
+26-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:16:9-42
+27        android:allowBackup="true"
+27-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:17:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.1.0] C:\Users\Owner\.gradle\caches\transforms-2\files-2.1\f01b27bb220ecb79298884ef36a7a2fb\core-1.1.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/pang_icon"
+30-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:18:9-41
+31        android:label="@string/app_name"
+31-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:19:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:20:9-54
+33        android:supportsRtl="true"
+33-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:21:9-35
+34        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+34-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:22:9-65
+35        android:usesCleartextTraffic="true" >
+35-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:23:9-44
+36        <activity android:name="com.example.panglimi.Kakaosticknum_Page" />
+36-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:24:9-56
+36-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:24:19-53
+37        <activity android:name="com.example.panglimi.Nonnetwork_Page" />
+37-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:25:9-53
+37-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:25:19-50
+38        <activity android:name="com.example.panglimi.Logout_Page" />
+38-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:26:9-49
+38-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:26:19-46
+39        <activity android:name="com.example.panglimi.Withdraw_Page" />
+39-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:27:9-51
+39-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:27:19-48
+40        <activity android:name="com.example.panglimi.Signup_Page" />
+40-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:28:9-49
+40-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:28:19-46
+41        <activity android:name="com.example.panglimi.Login_Page" >
+41-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:29:9-35:20
+41-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:29:19-45
+42            <intent-filter>
+42-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:30:13-34:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:31:17-69
+43-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:31:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:33:17-77
+45-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:33:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <meta-data
+49-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:37:9-39:71
+50            android:name="com.google.android.maps.v2.API_KEY"
+50-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:38:13-62
+51            android:value="AIzaSyABV2bEbD9E1zY09DxWEyvmy9qo9fP73eU" />
+51-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:39:13-68
+52        <meta-data
+52-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:40:9-42:53
+53            android:name="com.kakao.sdk.AppKey"
+53-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:41:13-48
+54            android:value="@string/kakao_app_key" />
+54-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:42:13-50
+55
+56        <activity
+56-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:44:9-53:20
+57            android:name="com.kakao.auth.authorization.authcode.KakaoWebViewActivity"
+57-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:45:13-86
+58            android:configChanges="orientation|screenSize"
+58-->[com.kakao.sdk:auth:1.14.0] C:\Users\Owner\.gradle\caches\transforms-2\files-2.1\07ae84084893c3423a1d313a26b2554c\jetified-auth-1.14.0\AndroidManifest.xml:14:13-59
+59            android:exported="false"
+59-->[com.kakao.sdk:auth:1.14.0] C:\Users\Owner\.gradle\caches\transforms-2\files-2.1\07ae84084893c3423a1d313a26b2554c\jetified-auth-1.14.0\AndroidManifest.xml:15:13-37
+60            android:label="@string/com_kakao_login_button"
+60-->[com.kakao.sdk:auth:1.14.0] C:\Users\Owner\.gradle\caches\transforms-2\files-2.1\07ae84084893c3423a1d313a26b2554c\jetified-auth-1.14.0\AndroidManifest.xml:16:13-59
+61            android:launchMode="singleTop"
+61-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:46:13-43
+62            android:windowSoftInputMode="adjustResize" >
+62-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:47:13-55
+63            <intent-filter>
+63-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:48:13-52:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:31:17-69
+64-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:31:25-66
+65
+66                <category android:name="android.intent.category.DEFAULT" />
+66-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:51:17-76
+66-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:51:27-73
+67            </intent-filter>
+68        </activity>
+69        <activity android:name="com.example.panglimi.MainActivity" />
+69-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:54:9-50
+69-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:54:19-47
+70        <activity android:name="com.example.panglimi.Setting_Page" />
+70-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:55:9-50
+70-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:55:19-47
+71        <activity android:name="com.example.panglimi.Caution_Page" />
+71-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:56:9-50
+71-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:56:19-47
+72        <activity android:name="com.example.panglimi.Home_Page" />
+72-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:57:9-47
+72-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:57:19-44
+73        <activity android:name="com.example.panglimi.Address_Page" />
+73-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:58:9-50
+73-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:58:19-47
+74        <activity android:name="com.example.panglimi.Findaccount_Page" />
+74-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:59:9-54
+74-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:59:19-51
+75        <activity android:name="com.example.panglimi.Successfind_Page" />
+75-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:60:9-54
+75-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:60:19-51
+76        <activity android:name="com.example.panglimi.Sticknum_Page" />
+76-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:61:9-51
+76-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:61:19-48
+77
+78        <service
+78-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:63:9-66:39
+79            android:name="com.example.panglimi.MyService"
+79-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:64:13-38
+80            android:enabled="true"
+80-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:65:13-35
+81            android:exported="true" />
+81-->C:\Users\Owner\Desktop\Project\Panglimi\Panglimi\app\src\main\AndroidManifest.xml:66:13-36
+82        <!-- Needs to be explicitly declared on P+ -->
+83        <uses-library
+83-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Owner\.gradle\caches\transforms-2\files-2.1\4882c64b33418d4d6e2bb0cb7ae334e3\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+84            android:name="org.apache.http.legacy"
+84-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Owner\.gradle\caches\transforms-2\files-2.1\4882c64b33418d4d6e2bb0cb7ae334e3\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+85            android:required="false" />
+85-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Owner\.gradle\caches\transforms-2\files-2.1\4882c64b33418d4d6e2bb0cb7ae334e3\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+86
+87        <activity
+87-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Owner\.gradle\caches\transforms-2\files-2.1\bd8a4935a17dde33dc1d62d4f9914d3b\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+88            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+88-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Owner\.gradle\caches\transforms-2\files-2.1\bd8a4935a17dde33dc1d62d4f9914d3b\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+89            android:exported="false"
+89-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Owner\.gradle\caches\transforms-2\files-2.1\bd8a4935a17dde33dc1d62d4f9914d3b\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+90            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+90-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Owner\.gradle\caches\transforms-2\files-2.1\bd8a4935a17dde33dc1d62d4f9914d3b\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+91
+92        <meta-data
+92-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owner\.gradle\caches\transforms-2\files-2.1\3baf5328a9efb589bcbd4104056ff275\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+93            android:name="com.google.android.gms.version"
+93-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owner\.gradle\caches\transforms-2\files-2.1\3baf5328a9efb589bcbd4104056ff275\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+94            android:value="@integer/google_play_services_version" />
+94-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Owner\.gradle\caches\transforms-2\files-2.1\3baf5328a9efb589bcbd4104056ff275\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+95    </application>
+96
+97</manifest>

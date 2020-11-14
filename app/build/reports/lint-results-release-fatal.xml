@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint 3.5.2">
+
+    <issue
+        id="NotSibling"
+        severity="Fatal"
+        message="`@+id/checkBox` is not a sibling in the same `RelativeLayout`"
+        category="Correctness"
+        priority="6"
+        summary="Invalid Constraints"
+        explanation="Layout constraints in a given `ConstraintLayout` or `RelativeLayout` should reference other views within the same relative layout (but not itself!)"
+        errorLine1="            android:layout_alignLeft=&quot;@+id/checkBox&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Owner\Desktop\Project\Panglimi_maybe_real_final\Panglimi\app\src\main\res\layout\edit_page.xml"
+            line="102"
+            column="13"/>
+    </issue>
+
+</issues>
